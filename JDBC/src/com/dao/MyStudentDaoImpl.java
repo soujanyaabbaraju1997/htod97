@@ -24,6 +24,7 @@ public class MyStudentDaoImpl implements StudentDAO {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			System.out.println("Driver loaded successfully");
 
+			System.out.println("hey");
 			// 2. get the connection
 			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "soujanya", "soujanya");
 			System.out.println("Connection obtained.");
